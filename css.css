@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-title,
+.spark-ar {
+  font-family: Slim Joe;
+  text-align: center;
+  font-weight: 100;
+}
+
+.main-title { 
+  margin-bottom: 30px;
+  letter-spacing: 12px;
+}
+
+.spark-ar {
+  margin-bottom: 150px;
+  letter-spacing: 5px;
+}
+
+header > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header > ul > li {
+  margin-right: 20px;
+  color: #cbcbcb;
+}
+
+li {
+  list-style: none;
+}
+
+.main-pods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pod-wrapper {
+  border: 1px solid #b2b2b2;
+  height: 200px;
+  padding: 8px 8px 70px;
+}
+
+.pod-image {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pod-image .opacity {
+    opacity: 0.65;
+}
+
+.pod-image span {
+	font-family: Mont-ExtraLightDEMO;
+}
+
+.pod-wrapper:nth-child(1) .opacity {
+	margin-top: -27px;
+	font-size: 36px;
+}
+
+.pod-wrapper:nth-child(2) .opacity {
+	margin-top: -22px;
+}
+
+.pod-wrapper:nth-child(3) .opacity {
+	font-size: 36px;
+    margin-top: -24px;
+}
+
+.pod-wrapper:nth-child(4) .opacity {
+    margin-top: -24px;
+}
+
+.pod-image > span {
+	font-size: 34px;
+	text-align: center;
+}
+
+.pod-wrapper:nth-child(1) .pod-image  {
+	background: url(main.jpg);
+	background-size: 100% 100%;
+}
+
+.pod-wrapper:nth-child(2) .pod-image {
+	background: url(gallery.jpg);
+	background-size: 100% 100%;
+}
+
+
+.pod-wrapper:nth-child(3) .pod-image  {
+	background: url(order-mask.jpg);
+	background-size: 100% 100%;
+}
+
+.pod-wrapper:nth-child(4) .pod-image  {
+	background: url(questions.jpg);
+	background-size: 100% 100%;
+}
+
+section > h1,
+section > h3 {
+  color: #c3c3c3;
+  font-weight: 100;
+}
+
+
+section > h1 {
+	font-size: 40px;
+	font-weight: 100;
+	letter-spacing: 10px;
+}
+
+section > p,
+section > span,
+section li {
+	color: #5f5f5f;
+	font-size: 17px;
+}
+
+.marketing-instrument h3 {
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+.marketing-instrument p {
+	letter-spacing: 3px;
+}
+
+.marketing-instrument {
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+
+.what-is-it {
+	display: flex;
+}
+
+.what-is-it img {
+	width: 30%;
+}
+
+.what-is-it h1 {
+    transform-origin: center;
+    transform: rotate(-90deg);
+    height: 344px;
+}
+
+.what-is-it p {
+	line-height: 25px;
+    letter-spacing: 2px;
+}
