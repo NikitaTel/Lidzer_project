@@ -207,11 +207,17 @@ section li {
 	display: flex;
 	align-items: center;
 	margin-left: 100px;
+    background: url(scope.jpg);
+    padding: 15px 0px 15px 36px;
+    background-size: 100% 100%;
+    width: 64%;
 }
 
 .what-is-it img {
-	width: 45%;
+	width: 35%;
     opacity: 0.75;
+    position: absolute;
+    right: 311px;
 }
 
 .what-is-it h1 {
@@ -227,6 +233,7 @@ section li {
 	line-height: 27px;
     letter-spacing: 2px;
     font-family: Mont;
+    z-index: 1;
 }
 
 .why-us li {
