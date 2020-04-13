@@ -79,6 +79,11 @@ li {
   align-items: center;
 }
 
+.pod-image h3:first-child {
+	opacity: 0.6;
+	z-index: 2;
+}
+
 .pod-image .opacity {
     opacity: 0.35;
 }
