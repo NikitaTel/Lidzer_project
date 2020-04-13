@@ -80,7 +80,7 @@ li {
 }
 
 .pod-image h3:first-child {
-	opacity: 0.6;
+	opacity: 0.75;
 	z-index: 2;
 }
 
