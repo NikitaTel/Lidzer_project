@@ -182,7 +182,8 @@ section li {
 
 .marketing-instrument {
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 70px;
+	padding-top: 50px;
 	margin-bottom: 80px;
 }
 
@@ -241,4 +242,8 @@ section li {
 
 .your-order {
 	margin-bottom: 80px;
+}
+
+.main-tranmission {
+	margin-bottom: 50px;
 }
