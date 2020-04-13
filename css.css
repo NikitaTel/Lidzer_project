@@ -203,7 +203,7 @@ section li {
 .marketing-instrument {
 	text-align: center;
 	margin-top: 70px;
-	padding-top: 40px;
+	padding-top: 35px;
 	margin-bottom: 80px;
 }
 
@@ -219,14 +219,15 @@ section li {
     background: url(scope.jpg);
     padding: 15px 0px 15px 36px;
     background-size: 100% 100%;
-    width: 64%;
+    width: 783px;
+    position: relative;
 }
 
 .what-is-it img {
-	width: 35%;
+	width: 500px;
     opacity: 0.75;
     position: absolute;
-    right: 311px;
+    right: -80px;
 }
 
 .what-is-it h1 {
