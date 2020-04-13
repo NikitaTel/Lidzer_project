@@ -5,6 +5,8 @@
 
 html {
     scroll-behavior: smooth;
+    border-right: 20px solid #78a195;
+    border-left: 20px solid #78a195;
 }
 
 @font-face {
@@ -236,8 +238,46 @@ section li {
     z-index: 1;
 }
 
+.first-background-span {
+	background: url(span-background.jpg);
+	background-size: 100% 100%;
+	padding: 10px 59px 23px 35px;
+    margin-left: -36px;
+}
+
 .why-us li {
 	margin-top: 20px;
+}
+
+.why-us ul li:first-child {
+	background: url(first-li-background.png);
+	background-size: 100% 100%;
+	width: 307px;
+    padding-right: 42px;
+    line-height: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.why-us ul li:nth-child(2) {
+	background: url(second-li-background.png);
+	background-size: 100% 100%;
+	width: 528px;
+    line-height: 49px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.why-us ul li:nth-child(3) {
+	background: url(third-li-background.png);
+	background-size: 100% 100%;
+	width: 290px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    margin-top: 7px;
 }
 
 .your-order h1 {
